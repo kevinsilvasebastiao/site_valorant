@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-image: radial-gradient(circle at -20.44% 56.16%, #ff65b3 0, #ff59c0 10%, #ff4ecd 20%, #ff45d9 30%, #ff3fe6 40%, #f23cf2 50%, #d33ffe 60%, #ad46ff 70%, #7b4fff 80%, #0058ff 90%, #0060ff 100%);
+    padding: 16px 0;
+    color: #ecf0f1;
+    font-family: 'Gugi', cursive;
+}
+
+header nav li,
+.social-links li {
+    color: #ecf0f1;
+    display: inline;
+    margin-left: 16px 0;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*css do header*/
+
+section {
+    margin-top: 20px;
+}
+section img {
+    width: 700px;    
+}
+
+section .container p,
+section .container h2,
+.brands_list,
+#contact .container h3 {
+    margin-left: 30px ;
+    margin-bottom: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.brands_list li {
+    display: inline;
+    
+}
+.brands_list img {
+    width: 40px;    
+}
+
+section h2,
+.contact-methods h3,
+.contact-methods p {
+    margin-bottom: 25px;
+    color: #0089fa;
+}
+
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 8px;
+}
+
+form button {
+    background-color: #4e02ff;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #00b7ff;
+}
+
+input:focus, textarea:focus {
+    outline-color: #12b880;
+}
+
+.social-links img {
+    width: 40px;
+}
+
+#contact .container {
+    display: block;
+}
+
+footer {
+    padding: 16px;
+    background-color: #0089fa;
+    color: #ecf0f1;
+}
